@@ -1,0 +1,32 @@
+.description-container{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.desc-review-cont{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+
+    & .desc{
+        padding: 10px 20px;
+        border: 1px solid black;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    & .review{
+        padding: 10px 20px;
+        border: 1px solid black;
+        color: rgb(62, 62, 62);
+        border-bottom: none;
+    }
+}
+
+.desc-matter{
+    width: 100%;
+    border: 1px solid black;
+    padding: 40px 30px;
+}

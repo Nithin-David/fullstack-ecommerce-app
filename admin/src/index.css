@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', 'sans-serif';
+    background-color: #f6f6f6;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 4px; /* Adjust the width as needed */
+  background-color: #f0f0f0; /* Adjust the background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #808080; /* Adjust the thumb color */
+  border-radius: 4px; /* Adjust the thumb border radius */
+}
